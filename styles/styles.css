@@ -4,11 +4,6 @@ body {
 	padding: 0;
 }
 
-header {
-	text-align: center;
-	padding: 1px;
-}
-
 .bkg-grad {
 	background-color: #1C2841;
 	background-image: linear-gradient(to left, #1C2841, #A9D6E8);
@@ -28,8 +23,10 @@ header {
 }
 
 .header {
-display: flex;
-padding: 32px;
+	text-align: center;
+	padding: 1px;
+	display: flex;
+	padding: 32px;
 }
 
 .header h1 {
